@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Simple WPF Notification - Verification popups</Title>
+    <Description>This WPF package contains customizable notification and verification - result popup window, for easy communication with the user.</Description>
+    <PackageIcon>notification.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons\close.png" />
+    <None Remove="icons\error.png" />
+    <None Remove="icons\success.png" />
+    <None Remove="icons\warning.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons\close.png" />
+    <Resource Include="icons\error.png" />
+    <Resource Include="icons\notification.png" />
+    <Resource Include="icons\success.png" />
+    <Resource Include="icons\warning.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="icons\notification.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
