@@ -16,3 +16,22 @@ C:\Users\eusid\source\repos\Pou Pass Man\Notification\obj\Debug\net7.0-windows\U
 C:\Users\eusid\source\repos\Pou Pass Man\Notification\obj\Debug\net7.0-windows\refint\UIMessage.dll
 C:\Users\eusid\source\repos\Pou Pass Man\Notification\obj\Debug\net7.0-windows\UIMessage.pdb
 C:\Users\eusid\source\repos\Pou Pass Man\Notification\obj\Debug\net7.0-windows\ref\UIMessage.dll
+C:\Users\eusid\source\repos\UIMessage\Notification\bin\Debug\net7.0-windows\UIMessage.deps.json
+C:\Users\eusid\source\repos\UIMessage\Notification\bin\Debug\net7.0-windows\UIMessage.dll
+C:\Users\eusid\source\repos\UIMessage\Notification\bin\Debug\net7.0-windows\UIMessage.pdb
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\NotifyPopUp.g.cs
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\VerifyPopUp.g.cs
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\UIMessage_MarkupCompile.cache
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\UIMessage_MarkupCompile.lref
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\NotifyPopUp.baml
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\VerifyPopUp.baml
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\UIMessage.g.resources
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\UIMessage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\UIMessage.AssemblyInfoInputs.cache
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\UIMessage.AssemblyInfo.cs
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\UIMessage.csproj.CoreCompileInputs.cache
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\UIMessage.sourcelink.json
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\UIMessage.dll
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\refint\UIMessage.dll
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\UIMessage.pdb
+C:\Users\eusid\source\repos\UIMessage\Notification\obj\Debug\net7.0-windows\ref\UIMessage.dll

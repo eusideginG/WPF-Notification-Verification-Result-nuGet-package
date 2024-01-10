@@ -14,10 +14,10 @@ namespace UIMessage
         /// <param name="title">Title of the popup window</param>
         /// <param name="message">Message of the popup window</param>
         /// <param name="position">ENotificationPositions enum of the popu window</param>
-        /// <param name="miliseconts">Notification popup window display time in miliseconts</param>
-        public static void Show(ENotificationTypes type, string title = "", string message = "", ENotificationPositions position = ENotificationPositions.BottomRight, int miliseconts = 2000)
+        /// <param name="milliseconds">Notification popup window display time in milliseconds</param>
+        public static void Show(ENotificationTypes type, string title = "", string message = "", ENotificationPositions position = ENotificationPositions.BottomRight, int milliseconds = 2000)
         {
-            NotifyPopUp popup = new NotifyPopUp(type, title, message, miliseconts);
+            NotifyPopUp popup = new NotifyPopUp(type, title, message, milliseconds);
             (popup.Top, popup.Left) = SetPosition(position);
             popup.ShowInTaskbar = false;
             popup.Show();

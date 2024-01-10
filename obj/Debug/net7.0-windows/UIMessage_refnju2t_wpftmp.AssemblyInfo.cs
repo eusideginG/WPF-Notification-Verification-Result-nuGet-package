@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("This WPF package contains customizable notification and verification - result pop" +
     "up window, for easy communication with the user.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b0091a87676b773f92ef356ad9c5038566be1f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("UIMessage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UIMessage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

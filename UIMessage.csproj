@@ -7,7 +7,13 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Simple WPF Notification - Verification popups</Title>
     <Description>This WPF package contains customizable notification and verification - result popup window, for easy communication with the user.</Description>
-    <PackageIcon>notification.png</PackageIcon>
+    <PackageIcon></PackageIcon>
+    <Version>$(Assembly)</Version>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageReadmeFile>REDME.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/eusideginG/WPF-Notification-Verification-Result-nuGet-package</RepositoryUrl>
+    <PackageTags>WPF; Notification; Verification-Result; popup; Message;</PackageTags>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +21,10 @@
     <None Remove="icons\error.png" />
     <None Remove="icons\success.png" />
     <None Remove="icons\warning.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="notification.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +37,14 @@
 
   <ItemGroup>
     <None Update="icons\notification.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="REDME.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

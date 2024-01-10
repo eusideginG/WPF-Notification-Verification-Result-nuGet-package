@@ -18,14 +18,14 @@ namespace UIMessage
         /// <param name="type">ENotificationTypes enum type</param>
         /// <param name="title">Title of the popup window</param>
         /// <param name="message">Message of the popup window</param>
-        /// <param name="miliseconts">Display time of the popup window in miliseconts</param>
-        public NotifyPopUp(ENotificationTypes type, string title, string message, int miliseconts)
+        /// <param name="milliseconds">Display time of the popup window in milliseconds</param>
+        public NotifyPopUp(ENotificationTypes type, string title, string message, int milliseconds)
         {
             this.NotificationIcon = new BitmapImage();
             this.NotificationTitle = title;
             this.NotificationMessage = message;
             this.NotificationColor = new SolidColorBrush();
-            this.NotificationDisplayTime = miliseconts;
+            this.NotificationDisplayTime = milliseconds;
 
             buildUI(type);
             InitializeComponent();

@@ -53,7 +53,7 @@ namespace UIMessage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/UIMessage;V1.0.0.0;component/verifypopup.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/UIMessage;component/verifypopup.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\VerifyPopUp.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
