@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UIMessage</id>
+    <version>1.0.1</version>
+    <title>Simple WPF Notification - Verification popups</title>
+    <authors>UIMessage</authors>
+    <license type="file">LICENSE.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <readme>README.md</readme>
+    <description>This WPF package contains customizable notification and verification - result popup window, for easy communication with the user.</description>
+    <tags>WPF Notification Verification-Result popup Message</tags>
+    <repository type="git" url="https://github.com/eusideginG/WPF-Notification-Verification-Result-nuGet-package" commit="34830877cdc1bb2c87bad75cfbf31ac26ebce57f" />
+    <dependencies>
+      <group targetFramework="net7.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net7.0-windows7.0/notification.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\eusid\source\repos\UIMessage\Notification\bin\Debug\net7.0-windows\UIMessage.dll" target="lib\net7.0-windows7.0\UIMessage.dll" />
+    <file src="C:\Users\eusid\source\repos\UIMessage\Notification\notification.ico" target="content\notification.ico" />
+    <file src="C:\Users\eusid\source\repos\UIMessage\Notification\notification.ico" target="contentFiles\any\net7.0-windows7.0\notification.ico" />
+    <file src="C:\Users\eusid\source\repos\UIMessage\Notification\icons\notification.png" target="\icons\notification.png" />
+    <file src="C:\Users\eusid\source\repos\UIMessage\Notification\LICENSE.md" target="\LICENSE.md" />
+    <file src="C:\Users\eusid\source\repos\UIMessage\Notification\README.md" target="\README.md" />
+  </files>
+</package>

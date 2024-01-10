@@ -53,7 +53,7 @@ namespace UIMessage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/UIMessage;component/notifypopup.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/UIMessage;V1.0.1.0;component/notifypopup.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\NotifyPopUp.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

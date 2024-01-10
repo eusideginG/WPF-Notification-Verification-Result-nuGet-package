@@ -7,10 +7,10 @@
     <authors>UIMessage</authors>
     <license type="file">LICENSE.md</license>
     <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
-    <readme>REDME.md</readme>
+    <readme>README.md</readme>
     <description>This WPF package contains customizable notification and verification - result popup window, for easy communication with the user.</description>
     <tags>WPF Notification Verification-Result popup Message</tags>
-    <repository type="git" url="https://github.com/eusideginG/WPF-Notification-Verification-Result-nuGet-package" commit="5b0091a87676b773f92ef356ad9c5038566be1f3" />
+    <repository type="git" url="https://github.com/eusideginG/WPF-Notification-Verification-Result-nuGet-package" commit="34830877cdc1bb2c87bad75cfbf31ac26ebce57f" />
     <dependencies>
       <group targetFramework="net7.0-windows7.0" />
     </dependencies>
@@ -29,6 +29,6 @@
     <file src="C:\Users\eusid\source\repos\UIMessage\Notification\notification.ico" target="contentFiles\any\net7.0-windows7.0\notification.ico" />
     <file src="C:\Users\eusid\source\repos\UIMessage\Notification\icons\notification.png" target="\icons\notification.png" />
     <file src="C:\Users\eusid\source\repos\UIMessage\Notification\LICENSE.md" target="\LICENSE.md" />
-    <file src="C:\Users\eusid\source\repos\UIMessage\Notification\REDME.md" target="\REDME.md" />
+    <file src="C:\Users\eusid\source\repos\UIMessage\Notification\README.md" target="\README.md" />
   </files>
 </package>
